@@ -30,3 +30,13 @@ export const theme = extendTheme({
     },
   },
 });
+
+const overrides = extendTheme({
+  styles: {
+    global: (props) => ({
+      ".swiper-container": {
+        width: "300px",
+      },
+    }),
+  },
+});
